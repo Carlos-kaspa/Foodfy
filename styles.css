@@ -1,0 +1,64 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    
+    margin: 1em;
+
+    
+}
+
+.header {
+
+    font-size: 20px;
+    line-height: 30px;
+    align-content: center;
+
+
+}
+
+
+
+.wrapper {
+
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-gap: 2em;
+    
+}
+
+.wrapper > div:nth-child(odd) {
+
+    background: #444;
+}
+
+#banner {
+
+    background: #eeafb4;
+    grid-column: 2/5;
+    grid-row: 1/4;
+    grid-template-columns:;
+    border-radius: 6%;
+}
+
+
+.topCards {
+
+    grid-row: 4/7;
+    grid-column: 2/3;
+
+}
+
+
+#cardImg img{
+
+  height: 100px;
+  width: 200px;
+}
+
+
