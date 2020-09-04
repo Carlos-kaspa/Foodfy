@@ -28,6 +28,12 @@ server.get("/sobre.html", function(req,res){
 })
 
 
+/*server.get("/github.com/carlos-kaspa", function(req,res){
+
+    return res.redirect("https://github.com/Carlos-kaspa/Foodfy")
+})
+*/
+
 server.listen(5000, function() {
 
     console.log("Server's up")

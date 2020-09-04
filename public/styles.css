@@ -28,6 +28,7 @@
 
 }
 
+/* HEADER/FOOTER */ 
 header {
     
     margin: 0 auto;
@@ -58,7 +59,53 @@ header {
         
 }
 
+footer {
 
+    height: 10vh;
+    
+}
+
+.footer {
+
+    padding: 10vh;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#createdBy {
+
+    text-align: center;
+    grid-column: 1/3;
+    font-family: var(--font);
+    color: grey;
+    font-size: 12px;  
+    font-style: italic;  
+}
+
+#gitHub {
+
+    padding: 2vh;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align:center;
+
+   
+
+}
+
+#gitHub img {
+
+
+    height: 36px;
+    width: 36px;
+    
+    
+  
+    
+}
+
+/*HOMEPAGE BODY CSS*/
 .wrapper {
 
     margin: 0 auto;
