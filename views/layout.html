@@ -2,6 +2,9 @@
   <head>
     <title>| Foodfy |</title>
     <link rel="stylesheet" href="/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
   </head>
 
   <header>
@@ -20,7 +23,33 @@
 {% block content%}
 
 {%endblock%}
+
+        <div class="modalOverlay" >
+            <div id="modal">
+                <a class="closeButton">
+                    <i class="material-icons">close</i>
+                </a>
+
+                <div class="contentImg">
+                    <img src="" alt="">
+                </div>
+
+                <div class="contentText">
+                    <h1> Lorem ipsum dolor sit amet.</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Nemo, dolor officia incidunt quae nobis hic voluptates asperiores mollitia facere consectetur.
+                        
+                    </p>
+                 
+                </div>
+            </div>
+        </div>
+
+
  </body>
+
+ <script src="script.js"> </script>
 
  <footer>
     <div class="footer">
@@ -34,6 +63,6 @@
 
       </div>
     </div>
-
  </footer>
+
 </html>
