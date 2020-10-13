@@ -164,6 +164,16 @@ footer {
 
 }
 
+.masterContainer {
+
+    margin: 4vh 12vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 2em;
+    grid-column-gap: 2em;
+  
+}
+
 
 .topCards {
 

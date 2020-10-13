@@ -27,6 +27,11 @@ server.get("/sobre.html", function(req,res){
     return res.render("sobre")
 })
 
+server.get("/receitas.html", function(req,res){
+
+    return res.render("receitas")
+})
+
 
 /*server.get("/github.com/carlos-kaspa", function(req,res){
 
